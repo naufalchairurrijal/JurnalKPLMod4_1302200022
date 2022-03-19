@@ -5,3 +5,11 @@ Penjumlahan Penjumlahan = new Penjumlahan();
 
 //nim = 1302200022 berakhiran 2 sehingga menggunakan float
 Console.WriteLine(Penjumlahan.JumlahTigaAngka<float>(1.3f, 2.2f, 2,2f));
+
+SimpleDataBase<float> objData = new SimpleDataBase<float>();
+
+objData.AddNewData(12.3f);
+objData.AddNewData(15.2f);
+objData.AddNewData(20.1f);
+
+objData.PrintAllData();
